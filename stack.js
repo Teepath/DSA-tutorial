@@ -7,7 +7,7 @@ class Stack{
 
 
     push(value){
-        return this.list.prepend(value)
+        return this.list.append(value)
     }
 
     pop(){
